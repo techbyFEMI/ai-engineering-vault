@@ -1,0 +1,24 @@
+# Environment variables & secrets (NEVER commit)
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local data & logs
+conversations.jsonl
+*.log
+
+# IDE & OS metadata
+.DS_Store
+.vscode/
+.idea/
